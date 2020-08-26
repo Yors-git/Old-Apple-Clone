@@ -1,3 +1,5 @@
+/* General */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,11 +10,15 @@ a {
   text-decoration: none;
 }
 
+/* Navbar */
+
 nav {
   width: 980px;
   position: absolute;
   top: 83px;
-  margin: 0 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 ul {
@@ -29,4 +35,12 @@ li {
 
 .flex {
   display: flex;
+}
+
+nav input {
+  background-image: url("./img/search-icon.png");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-size: 21px;
+  background-position-x: 97%;
 }
