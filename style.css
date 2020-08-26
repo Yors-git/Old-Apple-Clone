@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 980px;
+  position: absolute;
+  top: 83px;
+  margin: 0 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  flex: 1;
+  border: 1px solid gray;
+  height: 30px;
+  background: linear-gradient(rgb(136, 136, 136), rgb(109, 109, 109));
+  color: rgb(220, 220, 220);
+}
+
+.flex {
+  display: flex;
+}
