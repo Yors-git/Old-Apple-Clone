@@ -4,7 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -24,7 +25,7 @@ nav {
   border: 1px solid #7c7c7c;
   border-radius: 4.5px;
   font-size: 0.8rem;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 ul {
@@ -36,12 +37,18 @@ li {
   border: 1px solid #595959;
   border-top: none;
   border-bottom: none;
-  color: rgb(220, 220, 220);
   text-align: center;
+  line-height: 1.2rem;
+}
+
+a {
+  color: rgb(220, 220, 220);
+  display: block;
+  width: 100%;
   padding: 7px;
 }
 
-li:nth-child(1){
+li:nth-child(1) {
   border-left: none;
   border-radius: 4.5px 0 0 4.5px;
 }
@@ -56,9 +63,25 @@ li:nth-last-child(1) {
 }
 
 nav input {
-  background-image: url("./img/search-icon.png");
-  background-repeat: no-repeat;
-  background-position-y: 50%;
-  background-size: 21px;
-  background-position-x: 97%;
+  background: transparent;
+  border-radius: 10px;
+  width: 106px;
+  margin: 7px 10px;
+  border-top: 2px solid rgb(68, 68, 68);
+  border-left: none;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-ic {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: rgb(220, 220, 220);
+}
+
+.apple-ic {
+  font-size: 1rem;
 }
