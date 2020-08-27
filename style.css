@@ -97,7 +97,7 @@ nav input {
   color: white;
   font-weight: 200;
   background-image: url("./img/your_verse_hero_2x.jpg");
-  background-size: 110%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;
 }
@@ -184,7 +184,6 @@ nav input {
   border-right: 1px solid rgb(204, 204, 204);
   color: #6e6e6e;
 }
-
 
 .last-ul img {
   width: 17px;
