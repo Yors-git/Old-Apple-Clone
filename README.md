@@ -16,7 +16,7 @@ In this project, we have created a replica of the old apple homepage (https://we
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://yors-git.github.io/Old-Apple-Clone/)
 
 
 ## Authors
@@ -36,7 +36,7 @@ In this project, we have created a replica of the old apple homepage (https://we
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Yors-git/Old-Apple-Clone/issues).
 
 ## Show your support
 
