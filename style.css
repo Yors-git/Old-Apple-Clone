@@ -4,8 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 a {
@@ -88,9 +87,25 @@ nav input {
 
 /* Canvas */
 
-main {
+body {
   background: url("./img/your_verse_hero_2x.jpg") no-repeat;
+  background-position: 0 -730px;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  background-position: 120% 127%;
+
+}
+
+.canvas {
+  margin: 0 auto;
+  padding: 140px;
+  text-align: center;
+  color: white; 
+  font-weight: 200;
+}
+
+.canvas > h1 {
+  font-weight: inherit;
+  font-size: 3rem;
+  line-height: 2;
 }
