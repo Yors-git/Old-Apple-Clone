@@ -85,3 +85,12 @@ nav input {
 .apple-ic {
   font-size: 1rem;
 }
+
+/* Canvas */
+
+main {
+  background: url("./img/your_verse_hero_2x.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 120% 127%;
+}
