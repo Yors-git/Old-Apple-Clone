@@ -93,19 +93,45 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-
 }
 
 .canvas {
   margin: 0 auto;
   padding: 140px;
   text-align: center;
-  color: white; 
+  color: white;
   font-weight: 200;
+  width: 85%;
 }
 
 .canvas > h1 {
   font-weight: inherit;
-  font-size: 3rem;
+  font-size: 3.9rem;
   line-height: 2;
+}
+
+.canvas p {
+  font-size: 1.9rem;
+}
+
+#subtext {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#subtext:hover {
+  border-bottom: 1px solid white;
+}
+
+.middle-link {
+  margin: 0 auto;
+  width: 800px;
+}
+.link-text {
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-play-circle {
+  padding: 5px 0 0 5px;
 }
