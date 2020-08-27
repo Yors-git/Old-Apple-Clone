@@ -87,21 +87,21 @@ nav input {
 
 /* Canvas */
 
-body {
-  background: url("./img/your_verse_hero_2x.jpg") no-repeat;
-  background-position: 0 -730px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
+/* body {
+  
+} */
 
 .canvas {
   margin: 0 auto;
-  padding: 140px;
+  padding: 140px 140px 132px 140px;
   text-align: center;
   color: white;
   font-weight: 200;
-  width: 85%;
+  width: 100%;
+  background: url("./img/your_verse_hero_2x.jpg") no-repeat;
+  background-position: 0 -777px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .canvas > h1 {
@@ -134,4 +134,16 @@ body {
 
 .fa-play-circle {
   padding: 5px 0 0 5px;
+}
+
+/* bottom section */
+.bottom-images {
+  display: grid;
+  grid-template-columns: repeat(4, 364px);
+  grid-gap: 2px;
+}
+
+.bottom-images img {
+  grid-column: span 1;
+  width: 100%;
 }
