@@ -87,18 +87,17 @@ nav input {
 
 /* Canvas */
 
-
 .canvas {
   margin: 0 auto;
-  padding: 140px 140px 132px 140px;
+  height: 80%;
+  padding: 140px;
   text-align: center;
   color: white;
   font-weight: 200;
-  width: 100%;
-  background: url("./img/your_verse_hero_2x.jpg") no-repeat;
-  background-position: 0 -777px;
+  background-image: url("./img/your_verse_hero_2x.jpg");
+  background-size: 110%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 50% 100%;
 }
 
 .canvas > h1 {
