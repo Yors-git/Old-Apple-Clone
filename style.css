@@ -1,0 +1,199 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+/* Navbar */
+
+nav {
+  width: 75vw;
+  max-width: 980px;
+  position: absolute;
+  top: 83px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: linear-gradient(#858585, #717171 50%, #5e5e5e 50%, #777);
+  border: 1px solid #7c7c7c;
+  border-radius: 4.5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+nav li {
+  flex: 1;
+  border: 1px solid #595959;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  line-height: 1.2rem;
+}
+
+nav a,
+.canvas a {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+  display: block;
+  width: 100%;
+  padding: 7px;
+}
+
+li:nth-child(1) {
+  border-left: none;
+  border-radius: 4.5px 0 0 4.5px;
+}
+
+li:nth-last-child(1) {
+  border-right: none;
+  border-radius: 0 4.5px 4.5px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+nav input {
+  background: transparent;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 106px;
+  margin: 7px 10px;
+  border-top: 2px solid rgb(68, 68, 68);
+  border-left: none;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-ic {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  color: rgb(220, 220, 220);
+}
+
+.apple-ic {
+  font-size: 1rem;
+}
+
+/* Canvas */
+
+.canvas {
+  margin: 0 auto;
+  height: 80%;
+  padding: 140px;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  background-image: url("./img/your_verse_hero_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+.canvas > h1 {
+  font-weight: inherit;
+  font-size: 3.9rem;
+  line-height: 2;
+}
+
+.canvas p {
+  font-size: 1.9rem;
+}
+
+#verse-field {
+  display: flex;
+}
+
+#subtext {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#subtext:hover {
+  border-bottom: 1px solid white;
+}
+
+.middle-link {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 800px;
+}
+
+.link-text {
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-play-circle {
+  padding: 5px 0 0 5px;
+}
+
+/* bottom section */
+.bottom-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+}
+
+.bottom-images img {
+  width: 100%;
+}
+
+.footer-link {
+  color: rgb(55, 157, 211);
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.bottom ul {
+  float: right;
+}
+
+.bottom p {
+  float: left;
+}
+
+.last-line {
+  clear: both;
+}
+
+.bottom {
+  font-size: 0.6rem;
+  margin: 0 150px;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+.last-ul {
+  align-items: flex-start;
+}
+
+.last-ul li {
+  padding: 0 3px;
+  border-right: 1px solid rgb(204, 204, 204);
+  color: #6e6e6e;
+}
+
+.last-ul img {
+  width: 17px;
+}
+
+#usa-logo-li {
+  border-right-style: none;
+}
