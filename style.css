@@ -144,7 +144,6 @@ nav input {
 }
 
 .bottom-images img {
-  grid-column: span 1;
   width: 100%;
 }
 
