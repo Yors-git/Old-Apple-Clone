@@ -14,7 +14,8 @@ body {
 /* Navbar */
 
 nav {
-  width: 980px;
+  width: 75vw;
+  max-width: 980px;
   position: absolute;
   top: 83px;
   left: 0;
@@ -66,7 +67,8 @@ li:nth-last-child(1) {
 nav input {
   background: transparent;
   border-radius: 10px;
-  width: 106px;
+  width: 80%;
+  max-width: 106px;
   margin: 7px 10px;
   border-top: 2px solid rgb(68, 68, 68);
   border-left: none;
@@ -110,7 +112,10 @@ nav input {
 
 .canvas p {
   font-size: 1.9rem;
-  display: inline-block;
+}
+
+#verse-field {
+  display:flex;
 }
 
 #subtext {
@@ -124,7 +129,8 @@ nav input {
 
 .middle-link {
   margin: 0 auto;
-  width: 800px;
+  width: 70%;
+  max-width: 800px;
 }
 
 .link-text {
